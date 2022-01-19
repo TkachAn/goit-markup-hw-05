@@ -574,7 +574,7 @@ address {
   padding: 0;
 }
 
-.catCard {
+.catalog-card {
   border: 1px solid var(--secondary-border-color, #eeeeee);
   margin-top: var(--gap);
   margin-left: var(--gap);
@@ -589,13 +589,13 @@ address {
   margin-right: 0;
 }
 */
-.catCard:focus,
-.catCard:hover {
+.catalog-card:focus,
+.catalog-card:hover {
   box-shadow: /*0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),*/ 0px
     4px 4px #00000040;
 }
 
-.catCard p {
+.catalog-card p {
   font-size: 16px;
   line-height: 1.9;
   padding: 20px 24px;

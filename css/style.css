@@ -154,7 +154,7 @@ header div {
 header a {
   /* display: block; */
   padding-top: 24px;
-  padding-bottom: 24px;
+  padding-bottom: 30px;
 }
 
 /*header.section{}*/
@@ -526,6 +526,29 @@ address {
 /*********************************/
 /*********фильтр******************/
 /*********************************/
+.navigation > li {
+  display: block;
+}
+.studio-after,
+.portfolio-after
+/* a[href="./portfolio.html"] */ {
+  /* content: ""; */
+  /* border-bottom: 4px solid #2196f3; */
+  /* background-position: right bottom; */
+
+  background-image: url(../images/2/line-portfolio.svg);
+}
+.studio-after::after,
+.portfolio-after::after {
+  color: #ffffff;
+  content: "111";
+  display: block;
+  /* padding: 28px 0; */
+  /* border-bottom: 4px solid #2196f3; */
+  background-image: url(../images/2/line-portfolio.svg);
+  background-position: right bottom;
+}
+
 .filter {
   display: flex;
   justify-content: center;
@@ -575,20 +598,52 @@ address {
 }
 
 .catalog-card {
+  position: relative;
   border: 1px solid var(--secondary-border-color, #eeeeee);
   margin-top: var(--gap);
   margin-left: var(--gap);
   flex-basis: calc(100% / var(--col) - var(--gap));
+  overflow: hidden;
 }
-/*
-.catCard:nth-child(-n + 3) {
-  margin-top: 0;
+.box {
+  position: relative;
+  overflow: hidden;
+}
+.catalog-card:hover .overlay {
+  transform: translatex(0);
+  height: 294px;
 }
 
-.catCard:nth-child(-3n + 1) {
-  margin-right: 0;
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+  background: rgba(33, 150, 243, 0.9);
+  /* transform: ; */
+  transform: translatey(100%);
+  transition: transform 250ms ease;
 }
-*/
+
+.overlay > p {
+  color: #fff;
+  padding: 10px;
+  margin: 0;
+  font-size: 18px;
+}
+
+.overlay code {
+  display: inline-block;
+  padding: 2px 4px;
+  border-radius: 2px;
+  background-color: #fff;
+  color: #2a2a2a;
+}
+
 .catalog-card:focus,
 .catalog-card:hover {
   box-shadow: /*0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),*/ 0px

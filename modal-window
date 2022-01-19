@@ -1,0 +1,130 @@
+
+<!-- header -->
+    <header>
+      <div class="container">
+      <a href="./index.html"><span class="web">Web</span><span class="studio up">Studio</span></a>
+      <!-- navigation -->
+      <nav>
+        <!-- class="" -->
+        <ul class="navigation">
+    
+          <li>
+            <a href="./index.html">Студия</a>
+          </li>
+    
+          <li>
+            <a href="./portfolio.html">Портфолио</a>
+          </li>
+    
+          <li>
+            <a href="./contakts.html">Контакты</a>
+          </li>
+    
+        </ul>
+        
+      </nav>
+      <!-- address -->
+      <ul class="address">
+    
+        <li>
+          <a href="mailto:info@devstudio.com">
+            <span class="alig">
+              <svg class="adr envelope">
+                <use href="./images/icon/defs.svg#a-envelope"></use>
+              </svg>
+            </span>
+            <span class="mail">
+              info@devstudio.com
+            </span> 
+          </a>
+        </li>
+    
+        <li>
+        
+          <a href="tel:+380961111111">
+            <span class="alig">
+              <svg class="smartphone">
+                <use href="./images/icon/defs.svg#a-smartphone"></use>
+              </svg>
+              </span>
+              <span class="tel">
+               +38 096 111 11 11
+              </span>
+            </a>
+        </li>
+    
+      </ul>
+    </div>
+    </header>
+  <!-- main  class="section"-->
+    <main>
+    <!-- hero -->
+      <section class="hero">
+        <h1 class="heading1">
+          Эффективные решения <br> для вашего бизнеса
+        </h1>
+        <button type="button" class="btnHiro">
+          Заказать услугу
+        </button>
+      </section>
+    <!-- Особенности Benefits <h2>Особенности</h2>-->
+      <section class="benefits">
+        
+        <h2 class="invisible">Особенности</h2>
+        <ul class="container for-benefits">
+        <!-- Внимание к деталям -->
+          <li class="block pic1">
+            <div class="group">
+              <svg class="size">
+                <use href="./images/icon/defs.svg#g-antenna"></use>
+              </svg>
+            </div>
+            <h3 class="heading3 benh3">
+                Внимание к деталям
+            </h3>
+            <p>
+                Идейные соображения, а также начало повседневной работы по формированию позиции.
+            </p>
+          </li>
+        <!-- Пунктуальность -->
+          <li class="block pic2">
+            <div class="group">
+              <svg class="size">
+                <use href="./images/icon/defs.svg#g-clock"></use>
+              </svg>
+            </div><h3 class="heading3 benh3">
+                Пунктуальность
+            </h3>
+            <p>
+                Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
+            </p>
+          </li>
+        <!-- Планирование -->
+          <li class="block pic3">
+            <div class="group">
+              <svg class="size">
+                <use href="./images/icon/defs.svg#g-diagram"></use>
+              </svg>
+            </div><h3 class="heading3 benh3">
+                Планирование
+            </h3>
+            <p>
+                Равным образом консультация с широким активом в значительной степени обуславливает.
+            </p>
+          </li>
+        <!-- Современные технологии -->
+          <li class="block pic4">
+            <div class="group">
+              <svg class="size">
+                <use href="./images/icon/defs.svg#g-astronaut"></use>
+              </svg>
+            </div>
+            <h3 class="heading3 benh3">
+                Современные технологии
+            </h3>
+            <p>
+                Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+            </p>
+          </li>
+        </ul>
+      </section>

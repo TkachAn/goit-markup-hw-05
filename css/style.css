@@ -151,10 +151,11 @@ header div {
   letter-spacing: 0.02em;
 }
 
-header a {
-  /* display: block; */
-  padding-top: 24px;
-  padding-bottom: 30px;
+/* header a  */
+.ss {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 /*header.section{}*/
@@ -195,6 +196,27 @@ header a {
 
 .navigation > li + li {
   margin-left: 50px;
+}
+.navigation > li {
+  display: block;
+}
+.studio-after,
+.portfolio-after
+/* a[href="./portfolio.html"] */ {
+  position: relative; /* content: ""; */
+  /* border-bottom: 4px solid #2196f3; */
+  /* background-position: right bottom; */
+  background-image: url(../images/2/line-portfolio.svg);
+  background-position: right bottom;
+}
+.studio-after::after,
+.portfolio-after::after {
+  position: absolute;
+  color: transparent;
+  content: "0";
+  display: block;
+  /* padding: 28px 0; */
+  /* border-bottom: 4px solid #2196f3; */
 }
 
 /*******address************************/
@@ -526,28 +548,6 @@ address {
 /*********************************/
 /*********фильтр******************/
 /*********************************/
-.navigation > li {
-  display: block;
-}
-.studio-after,
-.portfolio-after
-/* a[href="./portfolio.html"] */ {
-  /* content: ""; */
-  /* border-bottom: 4px solid #2196f3; */
-  /* background-position: right bottom; */
-
-  background-image: url(../images/2/line-portfolio.svg);
-}
-.studio-after::after,
-.portfolio-after::after {
-  color: #ffffff;
-  content: "111";
-  display: block;
-  /* padding: 28px 0; */
-  /* border-bottom: 4px solid #2196f3; */
-  background-image: url(../images/2/line-portfolio.svg);
-  background-position: right bottom;
-}
 
 .filter {
   display: flex;
